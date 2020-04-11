@@ -1,0 +1,108 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    width: 1440px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.upper {
+    width: 100%;
+    background-color: white;
+}
+
+.upper .layer {
+    width: 85%;
+    margin: auto;
+}
+
+.upper h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.upper h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.upper p {
+    color: hsl(218, 22%, 67%);
+}
+
+.lower {
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    color: white;
+}
+
+.left .layer {
+    width: 70%;
+    margin: auto;
+}
+
+.left h2 span {
+    font-size: 10px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.left p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.left button {
+    width: 100%;
+    margin: 15px 0 20px;
+    padding: 10px 0;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(150, 144, 144, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right {
+    background-color: hsl(179, 59%, 51%);
+    width: 50%;
+}
+
+.right .layer {
+    width: 70%;
+    margin: auto;
+}
+
+.right h3 {
+    color: white;
+}
+
+.right p {
+    color: rgba(255, 255, 255, .7);
+}
+
+@media only screen and (max-width: 375px) {
+    .left,
+    .right {
+        width: 100%;
+    }
+    .lower {
+        flex-wrap: wrap;
+    }
+}
